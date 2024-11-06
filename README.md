@@ -1,6 +1,7 @@
 # CollegeProjects
 
 Odd IP Address Ping Scanner
+(OddIPsPing.ps1)
 
 This PowerShell script scans a specified subnet range by pinging only the IP addresses that end in odd numbers. 
 Designed for network diagnostics, it iterates through a defined IP range, pings each odd-numbered IP once, 
@@ -14,6 +15,7 @@ Logging to File: Saves ping results to ping.txt, providing a straightforward ref
 _______________________________
 
 Departmental File Backup Organizer
+(FileBackup.ps1)
 
 This PowerShell script efficiently sorts and backs up files from a source directory by moving them to department-specific folders. 
 Files with "HR" or "Sales" in their names are moved to dedicated backup folders, with filenames appended to indicate backup status.
@@ -27,6 +29,7 @@ Status Output: Confirms when the files have been successfully sorted and backed 
 _______________________________
 
 System Configuration and Security Task Automation Script
+(ConfigurationAutomationScript.ps1)
 
 This PowerShell script automates key configuration and security-related tasks, including renaming the computer, setting the time zone, listing running services, managing idle lock time, stopping specific services, and exporting security logs. 
 The script is useful for initial system setup and security hardening in Windows environments.
@@ -41,6 +44,7 @@ Security event log export
 _______________________________
 
 MousePicnic Text Adventure Game
+(PythonTextGame)
 
 This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
 Navigate through various rooms, gather essential items, and avoid encounters with the Owl, Fox, and Snake, 
