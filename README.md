@@ -1,6 +1,6 @@
 # CollegeProjects
 
-##Odd IP Address Ping Scanner
+## Odd IP Address Ping Scanner
 (OddIPsPing.ps1)
 
 This PowerShell script scans a specified subnet range by pinging only the IP addresses that end in odd numbers. 
