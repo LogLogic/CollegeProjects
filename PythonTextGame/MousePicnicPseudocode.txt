@@ -1,0 +1,65 @@
+Pseudocode to move between rooms
+CREATE dictionary for rooms and moving directions
+PRINT instructions 
+            “Mouse Picnic Text Game
+              Help the little mouse get ready for a picnic, 
+              sneak from the roommate Snake, 
+              and avoid being invited to the Owl and Fox’s parties..
+              Move commands: go South, go North, go East, go West’”
+
+LOOP 
+   DEFINE the location “You are in ‘current location’”
+        IF location is equal to ‘Wardrobe’:
+            PRINT “You are in the Wardrobe
+                           You see the Snake
+                           NOM NOM...GAME OVER!
+                           Thanks for playing the game. Hope you enjoyed it.”
+            BREAK
+        ELSIF location is equal to ‘Side Door’:
+            PRINT “You are at the Side Door
+                           You see the Fox
+                           NOM NOM...GAME OVER!
+                           Thanks for joining the Fox’s party. Hope you enjoyed it.”
+            BREAK
+        ELSIF location is equal to ‘Main Door’:
+            PRINT “You are at the Main Door
+                           You see the Owl
+                           NOM NOM...GAME OVER!
+                           Thanks for joining the Owl’s party. Hope you enjoyed it.”
+            BREAK
+        ELSIF location is equal to ‘Back Door’:
+            PRINT “You are at the Back Door
+                           YOU DID IT!
+                           Thanks for playing the game. Hope you enjoyed it.”
+            BREAK
+       ENDIF
+
+   GET move command from the user “Enter your move: ”
+        IF move command belongs to the current room:
+            ASSIGN current room to new room, moving command paired with         
+        ELSE:
+            PRINT “You can’t go that way!”
+        ENDIF
+ENDLOOP
+
+Pseudocode to get the item from the room and add it to the inventory.
+CREATE dictionary for rooms and items in those rooms
+PRINT instructions “Add to Inventory: get 'item name'”
+LOOP
+    When user enters the room, inform them what item is in the room 
+    PRINT “You see a ‘Insert item’”
+    GET input from the user “Enter your move: ”
+    IF input equal to “get 'Insert item’” located in the exact room:
+        REMOVE the item from dictionary
+        ADD the item to the list Inventory
+           PRINT “Inventory : ['Insert item']”
+        PRINT “‘Item’ retrieved!”
+    ELSE: 
+        SPLIT the input by space
+            IF first(0) word not equal to ‘get’:
+                PRINT “Can’t get [‘Insert item’]”
+            ELSE:
+                PRINT “Invalid Input!”
+            ENDIF
+    ENDIF
+ENDLOOP
