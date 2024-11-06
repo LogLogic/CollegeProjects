@@ -1,7 +1,7 @@
 # CollegeProjects
-My study projects
-
+_______________________________
 MousePicnic Text Adventure Game
+_______________________________
 
 This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
 Navigate through various rooms, gather essential items, and avoid encounters with the Owl, Fox, and Snake, 
