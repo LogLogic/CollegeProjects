@@ -3,7 +3,10 @@ My study projects
 
 MousePicnic Text Adventure Game
 
-This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. Navigate through various rooms, gather essential items, and avoid encounters with the Owl, Fox, and Snake, who will end the game if met. The goal is to collect all six items and reach the Back Door to win.
+This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
+Navigate through various rooms, gather essential items, and avoid encounters with the Owl, Fox, and Snake, 
+who will end the game if met. 
+The goal is to collect all six items and reach the Back Door to win.
 
 Features:
 
