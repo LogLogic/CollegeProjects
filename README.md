@@ -26,6 +26,20 @@ File Renaming: Adds "_backup" to each filename, preserving the original file ext
 Status Output: Confirms when the files have been successfully sorted and backed up.
 _______________________________
 
+System Configuration and Security Task Automation Script
+
+This PowerShell script automates key configuration and security-related tasks, including renaming the computer, setting the time zone, listing running services, managing idle lock time, stopping specific services, and exporting security logs. 
+The script is useful for initial system setup and security hardening in Windows environments.
+
+Key Functions:
+
+Computer renaming and automated restart
+Time zone configuration
+Retrieval and logging of running services
+Screensaver lock enforcement
+Security event log export
+_______________________________
+
 MousePicnic Text Adventure Game
 
 This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
