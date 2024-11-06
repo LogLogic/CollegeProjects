@@ -13,6 +13,19 @@ Automated Reachability Testing: Uses Test-Connection to ping addresses, making i
 Logging to File: Saves ping results to ping.txt, providing a straightforward reference for network diagnostics.
 _______________________________
 
+Departmental File Backup Organizer
+
+This PowerShell script efficiently sorts and backs up files from a source directory by moving them to department-specific folders. 
+Files with "HR" or "Sales" in their names are moved to dedicated backup folders, with filenames appended to indicate backup status.
+
+Features:
+
+Automated Folder Creation: Creates HR_Backup and sales_backup directories if they don't already exist.
+Departmental Sorting: Identifies files by checking for "HR" or "Sales" in the filename, then moves them to the appropriate backup folder.
+File Renaming: Adds "_backup" to each filename, preserving the original file extension.
+Status Output: Confirms when the files have been successfully sorted and backed up.
+_______________________________
+
 MousePicnic Text Adventure Game
 
 This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
@@ -27,4 +40,4 @@ Unique rooms containing items and characters
 Win condition: Collect all items and reach the exit
 Loss condition: Avoid rooms with villain characters
 Built-in inventory system to track collected items
-________________________________
+_______________________________
