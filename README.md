@@ -14,7 +14,7 @@ Automated Reachability Testing: Uses Test-Connection to ping addresses, making i
 Logging to File: Saves ping results to ping.txt, providing a straightforward reference for network diagnostics.
 _______________________________
 
-Departmental File Backup Organizer
+## Departmental File Backup Organizer
 (FileBackup.ps1)
 
 This PowerShell script efficiently sorts and backs up files from a source directory by moving them to department-specific folders. 
@@ -28,7 +28,7 @@ File Renaming: Adds "_backup" to each filename, preserving the original file ext
 Status Output: Confirms when the files have been successfully sorted and backed up.
 _______________________________
 
-System Configuration and Security Task Automation Script
+## System Configuration and Security Task Automation Script
 (ConfigurationAutomationScript.ps1)
 
 This PowerShell script automates key configuration and security-related tasks, including renaming the computer, setting the time zone, listing running services, managing idle lock time, stopping specific services, and exporting security logs. 
@@ -43,7 +43,7 @@ Screensaver lock enforcement
 Security event log export
 _______________________________
 
-MousePicnic Text Adventure Game
+## MousePicnic Text Adventure Game
 (PythonTextGame)
 
 This Python-based text adventure game challenges players to help a little mouse prepare for a picnic. 
